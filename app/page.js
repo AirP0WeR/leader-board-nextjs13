@@ -1,7 +1,11 @@
 import Header from "../components/header" 
 import LoginBtn from "@/components/login-btn";
 
+
 export default function Home() {
+
+  // const notify = () => toast("Wow so easy !");
+
   return (
     <main>
       <div>
@@ -9,6 +13,10 @@ export default function Home() {
         <div>
           <Header/>
           <LoginBtn/>
+
+        </div>
+        <div>
+          
 
         </div>
       </div>
